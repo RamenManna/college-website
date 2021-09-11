@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="website.css">
+  <title>Admission From</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Bidhan_Chandra_College%2C_Rishra.jpg" alt="Image"
+    class="logo">
+  <div class="name">
+    <h1>BIDHAN CHANDRA COLLEGE, RISHRA</h1>
+    <h6>A PREMIER COLLEGE IN WEST BENGAL, AFFILIATED TO UNIVERSITY OF CALCUTTA,NAAC ACCREDITED WITH GRADE-B,2016
+      (1ST
+      CYCLE)</h6>
+  </div>
+  <ul class="main-menu">
+    <li><a href="website.html">Home</a></li>
+    <li> <a href="#academics">Academics</a>
+      <ul class="second-menu">
+        <li><a href="#">Humanity</a>
+          <ul class="third-menu">
+            <li><a href="philodep.html">Philosophy</a></li>
+            <li><a href="englishdep.html">English</a></li>
+          </ul>
+        </li>
+
+        <li> <a href="#">Science</a>
+          <ul class="third-menu">
+            <li><a href="comsc.html">Computer Science</a></li>
+            <li><a href="mathdep.html">Mathematics</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Commerce</a>
+          <ul class="third-menu">
+            <li><a href="commerceday.html">Commerce(DAY)</a></li>
+            <li><a href="commerceeve.html">Commerce(Evening)</a></li>
+          </ul>
+        </li>
+    </li>
+  </ul>
+  <li><a href="admission.html">Admission</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li class="about"><a href="#about">About</a></li>
+
+  </ul>
+  </ul><br><br><br><br><br>
+  <form>
+    <fieldset>
+      <legend><b>Personal Details</b></legend><br>
+      *First Name: <input type="text" required /> Middle Name:
+      <input type="text" /> *Last Name: <input type="text" required />
+      <br /><br />*Date of Birth: <input type="date" required />*Place of
+      Birth<input type="text" /> <br /><br />*Gender:
+      <input type="radio" name="gender" required /> Male
+      <input type="radio" name="gender" required /> Female
+      <input type="radio" name="gender" required /> Other <br /><br />Marital
+      Status
+      <select>
+        <option value="" selected>--select--</option>
+        <option value="Married" name="Married">Married</option>
+        <option value="Unmarried" name="Unmarried">Unmarried</option>
+      </select>
+      Religion
+      <select>
+        <option value="" selected>--select--</option>
+        <option value="Hindu" name="Hindu">Hindu</option>
+        <option value="Muslim" name="Muslim">Muslim</option>
+        <option value="Others" name="Others">Others</option>
+      </select>
+      *Nationality<select required>
+        <option value="" selected>--select--</option>
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Others">Others</option>
+      </select><br /><br />
+      *Email ID
+      <input type="email" placeholder="abc@gmail.com" required /> *Contact :
+      <select required>
+        <option value="" selected>--select--</option>
+        <option value="India">India(+91)</option>
+        <option value="Pakistan">Pakistan(+92)</option>
+        <option value="Bangladesh">Bangladesh(+880)</option>
+        <option value="Others">Others</option>
+      </select>&nbsp;
+      <input type="text" placeholder="1234567890" required /><br /><br />
+      *Identification
+      <select required>
+        <option value="" selected>--select--</option>
+        <option value="Adhaar">Adhaar</option>
+        <option value="Pan">Pan Card</option>
+        <option value="Voterid">Voter Card</option>
+      </select>
+      *Identification Number
+      <input type="number" maxlength="12" placeholder="XXXX-XXXX-XXXX" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"
+        required /><br><br>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend><b>Residential Details</b></legend><br>
+      *Street Name <input type="text" required /> House No.<input type="text" />
+      *City<input type="text" required /> <br /><br />*Zip Code<input type="text" required />
+      <br /><br />*Country<select required>
+        <option value="" selected>--select--</option>
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Others">Others</option>
+      </select><br><br>
+    </fieldset><br>
+    <fieldset>
+      <legend>
+        <h3>Educational Details</h3>
+      </legend><br>
+      *Educational Qualifications&nbsp;<select required>
+        <option value="" selected>--Select--</option>
+        <option value="SecondaryEduaction">Secondary Eduaction</option>
+        <option value="Higher Secondary eduaction">
+          Higher Secondary Eduaction
+        </option>
+        <option value="Graduation">Graduation</option>
+        <option value="Post Graduation">Post Graduation</option>
+      </select><br /><br />
+      Aggregate and Year of Passing<br /><br />
+      <b>Examnination</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<b>Year of
+        Passing</b>&emsp;&emsp;&emsp;&emsp;&emsp;<b>Aggregate</b><br />
+      *Secondary Examination &emsp;&emsp;&emsp;&emsp;<input type="number" required />&nbsp;<input type="number"
+        required /><br /><br />
+      Higher Secondary Examination &nbsp;&emsp;&nbsp;<input type="number" />*Institution Name from You have passed the
+      Secondary Examination:
+      &emsp;<input type="text" required /><br /><br /><br />
+      *Institution Name from You have passed the Higher Secondary Examination:
+      &emsp;<input type="text" /><br /><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>
+        <h3>Documents Uploading</h3>
+      </legend><br>
+      *Upload Your Photo(max size: 5MB) <br /><br />
+      <input type="file" accept="images/png,images/jpg,images/jpeg" required />
+      <br /><br />
+      *Upload Your Signature(max size: 500KB) <br /><br />
+      <input type="file" accept="images/png,images/jpg,images/jpeg" required />
+      <br /><br />
+      *Upload Your Curriculum(max size: 500KB) <br /><br />
+      <input type="file" accept="images/png,images/jpg,images/jpeg" required />
+      <br /><br />
+      *Upload Your Choosen Identification(max size: 5MB) <br /><br />
+      <input type="file" accept=".pdf,.docx" required /> <br /><br />
+      *Upload Your other Testimonials(e.g. Certificates)(max size: 5MB)
+      <br /><br />
+      <input type="file" accept=".pdf,.docx" required /> <br /><br />
+    </fieldset>
+    <br />&nbsp;&nbsp;&nbsp;* >><b>INPUT REQUIRED</b><br /><br />
+    <br />
+    <center>
+      <input type="reset" value="Reset" />&nbsp;
+      <input type="submit" value="Submit" required />
+    </center>
+  </form>
+  <br>
+</body>
+
+</html>
